@@ -25,7 +25,7 @@ body {
   overflow: auto;
   border: 5px double black;
 }
-.topnav li{
+.topnav li {
   float: left;
   padding: 12px;
   color: blue;
@@ -34,7 +34,7 @@ body {
   text-align: center;
   list-style-type: none;
 }
-.topnav ul{
+.topnav ul {
   background-color: #edf7f6;
   margin-top: 0;
   text-align: center;
@@ -45,7 +45,7 @@ body {
   font-family: Dynalight;
   font-weight: bold;
   border: 6px outset #edf7f6;
-  position: absolute;
+  position: fixed;
   top: 200px;
   left: 50px;
   padding: 25px;
