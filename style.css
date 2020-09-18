@@ -20,11 +20,12 @@ body {
   background-position: center center;
 }
 .topnav {
-  position: fixed;
-  top: 500px;
+  position: relative;
   width: 100%;
+  height: 50px;
   background-color: #11a78e;
-  border: 5px double black;
+  border: 2px solid black;
+  text-align: center;
 }
 .topnav li {
   float: left;
@@ -32,25 +33,22 @@ body {
   color: blue;
   font-size: 24px;
   width: 20%;
-  text-align: center;
   list-style-type: none;
 }
 .topnav ul {
   background-color: #edf7f6;
   margin-top: 0;
-  text-align: center;
   font-family: Dynalight;
 }
 #aAC {
-  position: fixed;
-
+  position: relative;
   font-size: 65px;
   font-family: Dynalight;
   font-weight: bold;
   border: 6px outset #edf7f6;
-  position: fixed;
   top: 200px;
   left: 50px;
-  padding: 25px;
+  padding: 25px 20px 25px 25px;
   border-radius: 30px;
+  max-width: 24%;
 }
