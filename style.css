@@ -20,9 +20,10 @@ body {
   background-position: center center;
 }
 .topnav {
+  position: fixed;
+  top: 500px;
   width: 100%;
   background-color: #11a78e;
-  overflow: auto;
   border: 5px double black;
 }
 .topnav li {
@@ -41,6 +42,8 @@ body {
   font-family: Dynalight;
 }
 #aAC {
+  position: fixed;
+
   font-size: 65px;
   font-family: Dynalight;
   font-weight: bold;
