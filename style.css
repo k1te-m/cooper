@@ -43,8 +43,8 @@ body {
 }
 #aAC {
   position: relative;
-  font-size: 65px;
-  font-family: Dynalight;
+  font-size: 55px;
+  font-family: 'Lobster', cursive;;
   font-weight: bold;
   border: 6px outset #edf7f6;
   top: 200px;
