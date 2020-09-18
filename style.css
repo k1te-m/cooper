@@ -7,10 +7,10 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
 }
 .container {
-  min-width: 1920px;
+  min-width: 1250px;
 }
 .header {
   height: 500px;
@@ -19,9 +19,30 @@ body {
   background-size: cover;
   background-position: center center;
 }
+.topnav {
+  width: 100%;
+  background-color: #11a78e;
+  overflow: auto;
+  border: 5px double black;
+}
+.topnav li{
+  float: left;
+  padding: 12px;
+  color: blue;
+  font-size: 24px;
+  width: 20%;
+  text-align: center;
+  list-style-type: none;
+}
+.topnav ul{
+  background-color: #edf7f6;
+  margin-top: 0;
+  text-align: center;
+  font-family: Dynalight;
+}
 #aAC {
-  font-size: 50px;
-  font-family: Arizonia;
+  font-size: 65px;
+  font-family: Dynalight;
   font-weight: bold;
   border: 6px outset #edf7f6;
   position: absolute;
