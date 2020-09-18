@@ -10,7 +10,9 @@ body {
   background-color: rgb(51, 51, 51);
 }
 .container {
-  min-width: 1250px;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .header {
   height: 500px;
@@ -50,7 +52,8 @@ body {
   font-weight: bold;
   border: 6px outset #edf7f6;
   border-radius: 30px;
-  max-width: 30%;
   text-align: center;
-  min-width: 30%;
+  min-width: 400px;
+  max-width: 30%;
+  scale: none;
 }
