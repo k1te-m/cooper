@@ -43,13 +43,14 @@ body {
 }
 #aAC {
   position: relative;
+  top: 200px;
+  left: 50px;
   font-size: 55px;
   font-family: 'Lobster', cursive;;
   font-weight: bold;
   border: 6px outset #edf7f6;
-  top: 200px;
-  left: 50px;
-  padding: 25px 20px 25px 25px;
   border-radius: 30px;
-  max-width: 24%;
+  max-width: 30%;
+  text-align: center;
+  min-width: 30%;
 }
