@@ -31,14 +31,14 @@ body {
   float: left;
   padding: 12px;
   color: blue;
-  font-size: 24px;
+  font-size: 18px;
   width: 20%;
   list-style-type: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .topnav ul {
   background-color: #edf7f6;
   margin-top: 0;
-  font-family: Dynalight;
 }
 #aAC {
   position: relative;
